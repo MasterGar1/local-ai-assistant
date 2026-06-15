@@ -217,6 +217,11 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-memory/*
-config/voice/*
-description.txt
+# Project-specific
+backend/.venv/
+backend/models/
+backend/storage/
+frontend/node_modules/
+frontend/dist/
+frontend/src-tauri/target/
+
